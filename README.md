@@ -4,7 +4,7 @@
 
 **브랜치의 목록을 볼 때**
 
-git branch![](F:\바탕화면\1-1.PNG)
+git branch
 
 **브랜치를 생성할 때**
 
@@ -42,19 +42,19 @@ git diff "비교할 브랜치 명 1"..."비교할 브랜치 명 2"
 
 **로그에 모든 브랜치를 표시하고, 그래프로 표현하고, 브랜치명을 표시할 때**
 
-git log --branches --graph --decorate![](F:\바탕화면\branch.PNG)
+git log --branches --graph --decorate
 
 
 
 **로그에 모든 브랜치를 표시하고, 그래프로 표현하고, 브랜치 명을 표시하고, 한줄로 표시할 때**
 
-git log --branches --graph --decorate --oneline![](F:\바탕화면\3.PNG)
+git log --branches --graph --decorate --oneline
 
 
 
 ### 3. branch병합
 
-**A  브랜치로 B 브랜치를 병합할 때(A←B)**![](F:\바탕화면\merge.PNG)
+**A  브랜치로 B 브랜치를 병합할 때(A←B)**
 
 - master에다가 exp를 merge하고 싶을 때 
 
