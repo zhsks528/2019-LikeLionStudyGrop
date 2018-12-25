@@ -93,11 +93,11 @@ $ git log --branches --graph --decorate --oneline!
 
 - **같은 부분을 수정하면 충돌이 일어남**
 
-충돌이 생기면 아래와 같은 메시지가 생성![collision](F:\바탕화면\collision.PNG)
+충돌이 생기면 아래와 같은 메시지가 생성
 
 
 
-**git status**를 하면 충돌이 일어난 파일을 찾을 수 있다.![collision2](F:\바탕화면\collision2.PNG)
+**git status**를 하면 충돌이 일어난 파일을 찾을 수 있다.
 
 
 
