@@ -16,7 +16,7 @@ git checkout "전환하려는 브랜치 이름"
 
 **브랜치를 삭제할 때**
 
-git branch -d![](F:\바탕화면\branch -d.PNG)
+git branch -d
 
 **병합하지 않은 브랜치를 강제 삭제할 때**
 
