@@ -73,7 +73,7 @@ $ git config —global user.name “자신의 닉네임”
 $ git config —global user.email “자신의 이메일”
 ```
 
-* **이 파일들이 왜 변경 되었는지 이유를 적는 것 **
+* **이 파일들이 왜 변경 되었는지 이유를 적는 것**
 
 ```
 $ git commit –m “”
@@ -83,7 +83,7 @@ $ git commit –m “”
 $ git commit 후 파일 들어가서 작성 
 ```
 
-* **commit한 기록을 보여주는 명령어 **
+* **commit한 기록을 보여주는 명령어**
 
 ```
 $ git log
@@ -118,7 +118,7 @@ $ git log –p
 * **버전 간 의 차이점을 비교할 때**
 
 ```
-$ git diff ‘버전 id’..‘’버전 id2
+$ git diff ‘버전 id’..‘버전 id2'
 ```
 
 * **git add하기 전과 add한 후의 파일 내용을 비교할 때**
@@ -141,7 +141,7 @@ $ git reset —hard “버전 id”
 
 > commit “cddbccf0057e483cf4e92458d3bd130e53532b76” 에서 ""에 들어가있는게 id
 >
-> **협업을 할 때에는 reset을 하면 안된다. 절.대. **
+> **협업을 할 때에는 reset을 하면 안된다. 절.대.**
 
 ​     
 
