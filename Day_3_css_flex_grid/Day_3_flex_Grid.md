@@ -104,4 +104,22 @@
 
 flex-container에게 주는 것이 아닌 flex-item에게 영향을 미침
 
-##### align-self
+##### align-self 옵션
+
+* flex-start
+
+  ![flex-start_3](https://user-images.githubusercontent.com/38130934/50470503-1033a100-09f4-11e9-83c1-b2153474a26d.PNG)
+
+* flex-end
+
+  ![flex-end_3](https://user-images.githubusercontent.com/38130934/50470528-322d2380-09f4-11e9-82c0-d46d68f2e0c6.PNG)
+
+* stretch
+
+  ![flex-stretch](https://user-images.githubusercontent.com/38130934/50470540-39543180-09f4-11e9-9078-67240b94c0ee.PNG)
+
+* center
+
+  ![center-3](https://user-images.githubusercontent.com/38130934/50470543-3e18e580-09f4-11e9-8755-e496bd6bd693.PNG)
+
+**이미지는 w3shools.com에서 받아왔습니다.**
