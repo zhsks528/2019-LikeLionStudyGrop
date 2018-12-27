@@ -122,4 +122,88 @@ flex-container에게 주는 것이 아닌 flex-item에게 영향을 미침
 
   ![center-3](https://user-images.githubusercontent.com/38130934/50470543-3e18e580-09f4-11e9-8755-e496bd6bd693.PNG)
 
+
+
+flex를 사용하여 개구리를 옮기는 사이트 : https://flexboxfroggy.com/#ko
+
+---
+
+
+
+### 2. Grid
+
+#### 2-1 Why we need Grid
+
+> **flex가 충분하지 않은 이유**
+>
+> 웹사이트에서 필요로 하는 레이아웃을 짜기가 힘듬
+
+
+
+#### 2-2 Basics CSS Grid 
+
+> Grid는 row와 column 개념이 반대
+
+**grid-template-rows**
+
+**grid-template-columns**
+
+**grid-gap**
+
+
+
+#### 2-3 Auto Rows and Columns
+
+**grid-auto-rows**
+
+**grid-auto-columns**
+
+**grid-auto-flow**
+
+
+
+#### 2-4 Grid Template Areas
+
+**grid-template-area**
+
+
+
+#### 2-5 fr and repeat()
+
+* fr = fraction  비율을 정함 
+
+* repeat()
+
+> ex) grid-tempate-column : repeat(4, 1fr) 4개를 1:1:1:1 가로 비율로 레이아웃을 설정해라
+>
+> 첫번째 인자는 몇개를 반복할 것인가를 적으면 된다
+>
+> 두번째 인자는 비율을 적으면 된다.
+
+
+
+#### 2-6 minmax, max-content, min-content
+
+- minmax : 어느 지점에선 그 상태를 유지하라는 말을 뜻함
+- max-content : 최대한 늘어날 수 있을만큼 늘어나라는 말을 뜻함
+- min-content : 최대한 줄일 수 있을만큼 줄이라는 말을 뜻함
+
+
+
+#### 2-7 auto-fill, auto-fit
+
+auto-fill
+
+auto-fit
+
+
+
+#### 2-8 Jusify Content, Align Content and Place Content
+
+
+
+#### 2-8 Justify Items, Align Items and Place Items
+
+
+
 **이미지는 w3shools.com에서 받아왔습니다.**
