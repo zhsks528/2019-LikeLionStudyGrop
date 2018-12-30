@@ -1,0 +1,127 @@
+:root{
+    --colorOne : #d5ecf4;
+    --colorTwo : #e5efd9;
+    --colorThree : #fcf8c0;
+    --colorFour : #ebebeb;
+    --colorFive : #f4c5c3;
+    --colorSix : #e2b6e2;
+    --colorSeven : #fcf8c0;
+    --colorEight : lightblue;
+}
+
+ul{
+    list-style: none;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.threeGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.header{
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+.header h1{
+    margin-top: 0;
+    font-size : 60px;
+}
+
+.header .header__column{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__nav span{
+    text-transform: uppercase;
+    display: block;
+    color: rgba(0, 0, 0, 0.4);
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.grid{
+    grid-auto-rows: 300px;
+    grid-gap: 20px;
+}
+
+.grid .grid__item{
+    background-size: cover;
+    background-position: center center;
+}
+
+.grid .grid__item:first-child{
+    grid-row : span 2;
+    background-color: var(--colorOne);
+}
+
+.grid .grid__item:nth-child(2){
+    grid-area : span 2 / span 2;
+    background-image: url(https://cdn.pixabay.com/photo/2017/03/08/19/53/overcoming-2127669_1280.png);    
+}
+
+.grid .grid__item:nth-child(3){
+    background-color: var(--colorTwo);
+}
+
+.grid .grid__item:nth-child(4){
+    grid-area: span 2;
+    background-image: url(https://cdn.pixabay.com/photo/2015/10/20/18/57/furniture-998265__340.jpg);
+}
+
+.grid .grid__item:nth-child(5){
+    background-color: var(--colorFour);
+}
+
+.grid .grid__item:nth-child(6){
+    background-color: var(--colorFive);
+}
+
+.grid .grid__item:nth-child(7){
+    background-image: url(https://cdn.pixabay.com/photo/2015/05/15/14/22/conference-room-768441__340.jpg);
+}
+
+.grid .grid__item:nth-child(8){
+    grid-area: span 2/ span 2;
+    background-color: var(--colorSix);
+}
+
+.grid .grid__item:nth-child(9){
+    grid-area: span 2;
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/19/15/50/chair-1840011__340.jpg);
+}
+
+.grid .grid__item:nth-child(10){
+    grid-area: span 2/ span 2;
+    background-image: url(https://cdn.pixabay.com/photo/2015/02/09/14/56/table-629772__340.jpg);
+}
+
+.grid .grid__item:nth-child(11){
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/18/22/21/architecture-1837150__340.jpg);
+}
+
+.grid .grid__item:nth-child(12){
+    background-image: url(https://cdn.pixabay.com/photo/2015/05/15/14/54/furniture-768766__340.jpg);
+}
+
+.grid .grid__item:nth-child(13){
+    grid-area: span 2 / span 2;
+    background-color: var(--colorEight);
+}
+
+.grid .grid__item:nth-child(14){
+    background-image: url(https://cdn.pixabay.com/photo/2018/01/20/09/42/sofa-3094153__340.jpg);
+}
+
+.grid .grid__item:nth-child(15){
+    background-color: var(--colorSeven);
+}
