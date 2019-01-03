@@ -2,6 +2,12 @@
 
 **Prettier - Code formatter : 코드를 정리하는 확장 패키지**
 
+**django Template:**
+
+
+
+
+
 settings (JSON) : 개인적으로 수정하기 ^^...
 
 
@@ -100,7 +106,7 @@ def __ str __(self):
 
 
 
-실행
+**실행**
 
 python manage.py runserver 
 
