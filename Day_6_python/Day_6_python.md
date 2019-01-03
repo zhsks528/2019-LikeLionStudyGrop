@@ -130,7 +130,7 @@ for i, name in enumerate(names):
 - import math
   - 수학과 관련된 기능
     - math.ceil() : 올림함수
-    - math.round() : 반올림함수
+    - round() : 반올림함수
     - math.floor() : 내림함수
 - import random
   - 무작위와 관련된 기능
