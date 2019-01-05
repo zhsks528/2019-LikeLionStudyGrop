@@ -2,8 +2,6 @@
 
 
 
-
-
 #### 1. Parcel 설치 및 적용방법
 
 > **https://paceljs.org 참고**
