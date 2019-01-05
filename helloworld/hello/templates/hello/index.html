@@ -5,12 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Day_1 HelloWorld</title>
+    
   </head>
   <body>
     <h1>안녕하세요.</h1>
-
-    {% for item in post %}
-      {{ item }}
-    {% endfor %}
+    <ul style = "list-style-type : none;">
+      {% for item in post %}
+        <li>제목 : {{ item.title }}</li>
+        <li>내용 : {{ item.content }}</li>
+        <li>작성자 : {{ item.user }}</li>
+      {% endfor %}
+    </ul>
   </body>
 </html>
