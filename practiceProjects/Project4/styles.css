@@ -1,0 +1,162 @@
+:root {
+  --colorGray: rgba(0, 0, 0, 0.5);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 0px 15px;
+}
+
+.header {
+  margin: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__titles .header__title {
+  font-size: 30px;
+}
+
+.header__titles .header__subtitle {
+  font-size: 14px;
+  margin-top: 5px;
+  color: var(--colorGray);
+}
+
+.header__icon svg {
+  width: 25px;
+  height: 25px;
+}
+
+.header__icon svg:first-child {
+  margin-right: 15px;
+}
+
+.main {
+  margin: 50px 0;
+  margin-bottom: 100px;
+}
+
+.recipe {
+  display: flex;
+  height: 40vh;
+  position: relative;
+  background-image: url("https://cdn.pixabay.com/photo/2018/07/16/13/17/kiss-3541905__340.jpg");
+  background-position: center center;
+  background-size: 100%;
+  align-items: flex-end;
+  justify-content: center;
+  border-radius: 25px;
+}
+
+.recipe .recipe__heart {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recipe__heart svg {
+  width: 20px;
+  fill: #e74c3c;
+}
+
+.recipe .recipe__info {
+  width: 90%;
+  top: 50px;
+  padding: 10px 20px;
+  position: relative;
+  border-radius: 25px;
+  background-color: white;
+  box-shadow: 0 7px 20px rgba(50, 50, 93, 0.1), 0 3px 20px rgba(0, 0, 0, 0.08);
+}
+
+.recipe__info .recipe__title {
+  font-size: 36px;
+}
+
+.recipe__info .recipe__meta {
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--colorGray);
+}
+
+.recipe__info .recipe__social {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+
+.recipe__social .recipe__social-item {
+  display: flex;
+  align-items: center;
+}
+
+.recipe__social-item svg {
+  margin-left: 10px;
+  fill: var(--colorGray);
+}
+
+.recommended .recommended__header {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.recommended__header .recommended__title {
+  font-size: 20px;
+}
+
+.recommended__header .recommended__small {
+  color: var(--colorGray);
+}
+
+.recommended__grid {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: minmax(120px, 1fr);
+  grid-auto-columns: minmax(120px, 1fr);
+  grid-gap: 25px;
+  overflow: scroll;
+}
+
+.recommended-recipe {
+  border-radius: var(--borderRadius);
+  height: 18vh;
+  background-image: url(https://i.pinimg.com/564x/c0/63/f1/c063f17d68bc5181dfa0010bf2a18e78.jpg);
+  background-size: 100%;
+  background-position: center center;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+.recommended-recipe .recommended-recipe__info {
+  background-color: white;
+  padding: 10px;
+  width: 100%;
+}
+
+.recommended-recipe__info .recommended-recipe__title {
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.recommended-recipe__info .recommended-recipe__subtitle {
+  font-size: 8px;
+  color: var(--colorGray);
+}
