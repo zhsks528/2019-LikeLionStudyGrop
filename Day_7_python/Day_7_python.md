@@ -4,10 +4,6 @@
 12. 예외처리
 13. 논리연산 & if 문 활용
 14. 리스트 더 알아보기
-15. 클래스와 객체지향 프로그래밍
-16. 상속과 다형성
-17. Comprhension
-18. 날짜와 시간
 
 
 
@@ -93,7 +89,7 @@ except Exception as ex: # 에러 종류
 
 
 
-### 13.2 bool 값과 논리연산
+13.2 bool 값과 논리연산
 
 #### true, false
 
@@ -106,7 +102,7 @@ except Exception as ex: # 에러 종류
 
 ## 14. 리스트 더 알아보기
 
-#### 14.1 List의 다양한 기능
+### 14.1 List의 다양한 기능
 
 #### List의 기능
 
@@ -118,7 +114,7 @@ except Exception as ex: # 에러 종류
 
 
 
-#### 14.2 List와 문자열
+### 14.2 List와 문자열
 
 #### List와 String
 
