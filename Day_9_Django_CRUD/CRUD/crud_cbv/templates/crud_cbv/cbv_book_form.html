@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>CBV_CRUD_UPDATE</title>
 </head>
 
 <body>
-    <h1>Book Details</h1>
-    <h2>Name: {{object.name}}</h2>
-    Pages: {{ object.pages }}
+    <h1>CBV_Book Edit</h1>
+    <form method="post">{% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" value="Submit" />
+    </form>
 </body>
 
 </html>

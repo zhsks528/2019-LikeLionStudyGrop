@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>FBV_CRUD_LIST</title>
 </head>
 
 <body>
-    <h1>Books</h1>
+    <h1>FBV_Books</h1>
 
     <table border="1">
         <thead>
@@ -26,15 +26,15 @@
             <tr>
                 <td>{{ book.name }}</td>
                 <td>{{ book.pages }}</td>
-                <td><a href="{% url 'book_view' book.id %}">view</a></td>
-                <td><a href="{% url 'book_edit' book.id %}">edit</a></td>
-                <td><a href="{% url 'book_delete' book.id %}">delete</a></td>
+                <td><a href="{% url 'fbv_book_view' book.id %}">view</a></td>
+                <td><a href="{% url 'fbv_book_edit' book.id %}">edit</a></td>
+                <td><a href="{% url 'fbv_book_delete' book.id %}">delete</a></td>
             </tr>
             {% endfor %}
         </tbody>
     </table>
 
-    <a href="{% url 'book_new' %}">New</a>
+    <a href="{% url 'fbv_book_new' %}">New</a>
 </body>
 
 </html>

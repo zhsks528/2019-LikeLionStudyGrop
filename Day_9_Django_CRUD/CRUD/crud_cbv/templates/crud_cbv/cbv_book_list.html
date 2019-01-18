@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CBV_CRUD_LIST</title>
+</head>
+
+<body>
+    <h1>CBV_Books</h1>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Pages</th>
+                <th>View</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for book in object_list %}
+            <tr>
+                <td>{{ book.name }}</td>
+                <td>{{ book.pages }}</td>
+                <td><a href="{% url 'cbv_book_view' book.id %}">view</a></td>
+                <td><a href="{% url 'cbv_book_edit' book.id %}">edit</a></td>
+                <td><a href="{% url 'cbv_book_delete' book.id %}">delete</a></td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{% url 'cbv_book_new' %}">New</a>
+</body>
+
+</html>

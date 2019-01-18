@@ -5,15 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>FBV_CRUD_DETAILS</title>
 </head>
 
 <body>
-    <h1>Book Edit</h1>
-    <form method="post">{% csrf_token %}
-        {{ form.as_p }}
-        <input type="submit" value="Submit" />
-    </form>
+    <h1>FBV_Book Details</h1>
+    <h2>Name: {{object.name}}</h2>
+    Pages: {{ object.pages }}
 </body>
 
 </html>
